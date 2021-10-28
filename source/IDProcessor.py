@@ -248,5 +248,5 @@ class IDextract():
 if __name__ == "__main__":
     pan = PanCardExtractor()
     aadhar = AadharExtraction()
-    outPuts = aadhar.run(sys.argv[1])
+    outPuts = pan.run(sys.argv[1])
     print("output :",outPuts)
